@@ -5,7 +5,7 @@ Train::Train() {
     first = nullptr;
     countOp = 0;
 }
-Train:: ~ Train() {
+Train::~Train() {
     int num = getLength();
     while (num--) {
         Cage* current = first;
